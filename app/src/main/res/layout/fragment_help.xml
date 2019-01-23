@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/help_options"
+        android:id="@+id/listview_help_options" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/help_content"
+        android:visibility="gone">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_help_title"
+            android:textAppearance="@android:style/TextAppearance.Material.Large"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:id="@+id/scrollView_help"
+            android:layout_below="@+id/textView_help_title"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView_help"
+                android:textStyle="normal"/>
+
+        </ScrollView>
+
+        <Button
+            android:text="Back to Help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_help"
+            android:layout_below="@+id/scrollView_help"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+</FrameLayout>

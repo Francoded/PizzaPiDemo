@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">PizzaPi</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="nav_recipe_day">Recipe of the Day</string>
+    <string name="nav_recipes_all">All Recipes</string>
+    <string name="nav_ingredients_all">All Ingredients</string>
+    <string name="nav_ingredients_selected">Selected Ingredients</string>
+    <string name="nav_recipes_available">Available Recipes</string>
+    <string name="nav_recipes_favorite">Favorite Recipes</string>
+    <string name="nav_logout">Logout</string>
+
+    <string name="serverIP">http://francoded.net:5000/</string>
+
+    <string name="loginText">Log In</string>
+    <string name="loginPrompt">Need an account? Sign Up!</string>
+    <string name="signupText">Sign Up</string>
+    <string name="signupPrompt">Already have an account? Log in!</string>
+
+
+    <string name="menu_help">Help</string>
+    <string-array name="help_options">
+        <item>How to Navigate PizzaPi</item>
+        <item>How to favorite/unfavorite a recipe</item>
+        <item>How to select/unselect an ingredient</item>
+        <item>About each option</item>
+    </string-array>
+
+    <string-array name="option_description">
+        <item>"To enter the Navigation Drawer use the menu icon in the top left corner of the app.\n\nFrom here you can switch to any of the various pages of the app simply by selecting them.\n\nTo leave the Navigation Drawer use the menu exit icon in the top left corner of the app, or by selecting one of the menu items to go to that page.\n\nLogout can be found in the navigation drawer near the bottom."</item>
+        <item>"When viewing a recipe's details, there will be a star icon next it's name.\n\nIf the star is empty, the recipe you are viewing is not \"favorited\".\nIf it is filled, then it is \"favorited\".\n\nTo favorite or unfavorite a recipe simply press the star icon.\n\nFavorited recipes can be found in the \"Favorite Recipes\" page."</item>
+        <item>"To select an ingredient press the ingredient you want in the \"All Ingredients\" page.\n\nSelected ingredients can be found in the \"Selected Ingredients\" page.\n\nTo unselect an ingredient press the ingredient you don't want in the \"Selected Ingredients\" page."</item>
+        <item>"Recipe of the Day:\nDisplays a new recipe each day. At the start of the app this is shown.\n\nAll Recipes:\nDisplays all of the recipes in our database.\n\nAll Ingredients:\nDisplays all of the ingredients in our database.\n\nSelected Ingredients:\nDisplays all of the ingredients that you have selected.\nThese ingredients are saved to your account so they are not lost when you logout.\n\nAvailable Recipes:\nDisplays all of the recipes that you can create with the ingredients that you have selected.\n\nFavorite Recipes:\nDisplays all of the recipes that you have favorited.\nThese recipes are saved to your account so they are not lost when you logout."</item>
+    </string-array>
+
+</resources>
