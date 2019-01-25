@@ -5,7 +5,7 @@ Overall, the sample illustrates a working full stack Android application.
 
 ### Recommended Setup
 
-I recommend running PizzaPi in an Android Studio virtual device and running the PizzaPi server on the same machine, i.e. on `localhost`. The PizzaPi server dependencies are easily managed using Anaconda and the provided _environment.yml_ file.
+I recommend running PizzaPi in an Android Studio virtual device and running the PizzaPi server and database on the same machine. The PizzaPi server dependencies are easily managed using Anaconda and the provided _environment.yml_ file.
 
 #### Software
 * Android Studio
@@ -17,6 +17,6 @@ I recommend running PizzaPi in an Android Studio virtual device and running the 
 
 ### Getting Started
 
-This repository is composed of three branches, `master`, `android`, and `server`. The master branch contains documentation, the `android` branch contains the Android Studio PizzaPi project, and the `server` branch contains code for the PizzaPi server. Each branch has a README with instructions on how to get started with the PizzaPi Android application and the PizzaPi server. These instructions are catered for UNIX based operating systems that support the recommended software listed above, i.e. MacOS and Linux. 
+This repository is composed of three branches: `master`, `android`, and `server`. The `master` branch contains documentation, the `android` branch contains the Android Studio PizzaPi project, and the `server` branch contains code for the PizzaPi server. Each branch has a README.md with instructions on how to get started with each breanch. These instructions are catered for UNIX based operating systems that support the recommended software listed above, i.e. MacOS and Linux. 
 
 NOTE: This is not a production-ready system.
