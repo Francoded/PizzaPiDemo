@@ -12,7 +12,7 @@ from math import floor
 app = Flask(__name__)
 
 # Replace Database URI
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://localhost/PizzaPi'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://pizzapi:pizzapi@localhost/PizzaPi'
 
 db = SQLAlchemy(app)
 folder = 'images'
